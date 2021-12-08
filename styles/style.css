@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Baskerville";
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+body .container .top__half {
+  background-color: #f1b8f1;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+body .container .bottom__half {
+  bottom: 0;
+  background: #f1b8f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  padding-top: 0rem;
+}
+body .container .bottom__half .title {
+  font-weight: 900;
+  display: block;
+  text-align: center;
+  background-color: #f1b8f1;
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  color: #52024e;
+  margin-top: 0;
+  padding-bottom: 8rem;
+}
+body .container .bottom__half .title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10%;
+  background: #52024e;
+}
+body .container .bottom__half .btn {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+  border: 0;
+  border-radius: 30px;
+  background: #52024e;
+  box-shadow: 2px 5px 5px black;
+}
+body .container img {
+  margin-top: 7rem;
+  max-width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border: 3px solid #52024e;
+}
+
+/*# sourceMappingURL=style.css.map */

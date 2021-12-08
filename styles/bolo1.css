@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background: #f1b8f1;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 98vh;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 96vw;
+  border-radius: 1rem;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.8;
+  margin: 4px;
+  position: relative;
+  transition: flex 1s ease-in-out;
+  border: 3px solid #52024e;
+}
+.panel .title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.panel .title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 10%;
+  background: #52024e;
+}
+.panel img {
+  width: 100%;
+}
+
+.panel.active {
+  flex: 3;
+}
+
+/*# sourceMappingURL=bolo1.css.map */
